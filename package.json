@@ -2,11 +2,18 @@
   "name": "add-types",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "cli.js",
+  "bin": {
+    "add-types": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "illumisoft",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/illumisoft/add-types.git"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
